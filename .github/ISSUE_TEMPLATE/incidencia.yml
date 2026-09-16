@@ -18,7 +18,7 @@ body:
     id: ubicacio
     attributes:
       label: Aula, departament o ubicació
-      placeholder: Exemple: Aula A1
+      placeholder: Exemple Aula A1
 
   - type: dropdown
     id: prioritat
