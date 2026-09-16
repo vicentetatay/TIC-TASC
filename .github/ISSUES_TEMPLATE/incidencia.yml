@@ -1,0 +1,45 @@
+name: Incidència TIC
+description: Registrar una incidència TIC
+title: "[INC] "
+labels:
+  - pendent
+  - mitjana
+
+body:
+  - type: input
+    id: usuari
+    attributes:
+      label: Nom de l'usuari
+      placeholder: Exemple: Vicent Tatay
+    validations:
+      required: true
+
+  - type: input
+    id: ubicacio
+    attributes:
+      label: Aula, departament o ubicació
+      placeholder: Exemple: Aula A1
+
+  - type: dropdown
+    id: prioritat
+    attributes:
+      label: Prioritat
+      options:
+        - alta
+        - mitjana
+        - baixa
+    validations:
+      required: true
+
+  - type: textarea
+    id: incidencia
+    attributes:
+      label: Descripció de la incidència
+      placeholder: Explica què ocorre...
+    validations:
+      required: true
+
+  - type: textarea
+    id: observacions
+    attributes:
+      label: Observacions addicionals
